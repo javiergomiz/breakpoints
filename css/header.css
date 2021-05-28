@@ -1,2 +1,26 @@
 /* HEADER */
 /* ***** */
+/* Banner */
+.banner{
+border-bottom-left-radius:100px;
+border-bottom-right-radius:100px;
+/* Ancho de la imagen siempre sea igual que la del dispositivo */
+width: 100vw;
+}
+/* Logotipo */
+.logotipo{
+    text-align:center
+}
+
+/* Mediaquerys */
+/* Monitor */
+@media only screen and (min-width:1000px){
+    .banner{
+        border-bottom-left-radius:0px;
+        border-bottom-right-radius:0px;
+        }/* Logotipo */
+    .logotipo{
+        position:absolute,
+        top:20px,
+        left:20px,
+    }}
